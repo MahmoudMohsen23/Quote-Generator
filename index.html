@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ~---GOOGLE FONTS LINK--- -->
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <!-- *---BOOTSTRAP LINK--- -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- !---STYLE CSS--- -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="main d-flex justify-content-center align-items-center text-center ">
+        <div class="container">
+            <div class="inner">
+                <h1>Quote Of The Day</h1>
+                <p>Press the button below to recieve a random quote!</p>
+                <button onclick="generate()" class="btn btn-outline-warning">New Quote</button>
+                <div class="quotes border p-4 border-warning rounded-3 w-50 mx-auto">
+                    <h2 id="quote"></h2>
+                    <h3 id="writer"></h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

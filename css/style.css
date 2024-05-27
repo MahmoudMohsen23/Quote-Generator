@@ -1,0 +1,43 @@
+.main { 
+    background-color: #101820ff;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.inner h1 { 
+    font-size: 60px;
+    color: #ffc107;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: "Poetsen One", sans-serif;
+
+}
+.inner p {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+    font-family: "Poetsen One", sans-serif;
+
+}
+button.btn { 
+    --bs-btn-padding-x: 20px;
+    --bs-btn-padding-y: 15px;
+    --bs-btn-font-family: "Poetsen One", sans-serif;
+    --bs-btn-font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.quotes h2 { 
+    font-size: 25px;
+    color: #ffc107;
+    margin-bottom: 20px;
+    font-family: "Poetsen One", sans-serif;
+
+}
+.quotes h3 { 
+    font-size: 20px;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+
+}
